@@ -21,6 +21,63 @@
       "basePay": 320,
       "callsNeeded": 800,
       "reqAgents": 4
+      {
+  "version": "1.6",
+  "levelConfig": {
+    "1": {
+      "name": "Probationary Rookie",
+      "expNeeded": 25,
+      "speedMult": 1.0,
+      "salaryMult": 1.0
+    },
+    "2": {
+      "name": "Certified Agent",
+      "expNeeded": 75,
+      "speedMult": 1.3,
+      "salaryMult": 1.2
+    },
+    "3": {
+      "name": "Senior Support Specialist",
+      "expNeeded": 150,
+      "speedMult": 1.7,
+      "salaryMult": 1.5
+    },
+    "4": {
+      "name": "Team Floor Lead",
+      "expNeeded": 300,
+      "speedMult": 2.2,
+      "salaryMult": 1.9
+    },
+    "5": {
+      "name": "Executive Operations Director",
+      "expNeeded": null,
+      "speedMult": 3.0,
+      "salaryMult": 2.5
+    }
+  },
+  "availableForHire": [
+    {
+      "id": "cand_101",
+      "name": "Marcus Vance",
+      "tier": "tech",
+      "level": 2,
+      "exp": 10,
+      "hireCost": 1200,
+      "wage": 18,
+      "speed": 1.9,
+      "avatarColor": "#2ea043"
+    }
+  ],
+  "contracts": [
+    {
+      "client": "Orbital SpaceX Telemetry",
+      "type": "Satellite Live Feed",
+      "basePay": 280,
+      "callsNeeded": 500,
+      "reqAgents": 3
+    }
+  ]
+}
     }
   ]
 }
