@@ -1,0 +1,26 @@
+{
+  "version": "1.3",
+  "contracts": [
+    {
+      "client": "Orbital Space Logistics",
+      "type": "Satellite Telemetry Support",
+      "basePay": 250,
+      "callsNeeded": 600,
+      "reqAgents": 3
+    },
+    {
+      "client": "CryptoExchange Global",
+      "type": "24/7 Fraud Hotline",
+      "basePay": 180,
+      "callsNeeded": 450,
+      "reqAgents": 2
+    },
+    {
+      "client": "Tesla Autonomous Ride",
+      "type": "Fleet Emergency Concierge",
+      "basePay": 320,
+      "callsNeeded": 800,
+      "reqAgents": 4
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": "1.5",
+  "levelRequirements": {
+    "1": 30,
+    "2": 80,
+    "3": 180,
+    "4": 350,
+    "5": null
+  },
+  "availableForHire": [
+    {
+      "id": "cand_001",
+      "name": "Marcus Vance",
+      "tier": "tech",
+      "level": 2,
+      "exp": 40,
+      "hireCost": 1200,
+      "wage": 18,
+      "speed": 1.9,
+      "avatarColor": "#2ea043"
+    },
+    {
+      "id": "cand_002",
+      "name": "Elena Rostova",
+      "tier": "senior",
+      "level": 3,
+      "exp": 110,
+      "hireCost": 3500,
+      "wage": 55,
+      "speed": 3.1,
+      "avatarColor": "#f59e0b"
+    },
+    {
+      "id": "cand_003",
+      "name": "David Sterling",
+      "tier": "expert",
+      "level": 4,
+      "exp": 220,
+      "hireCost": 9000,
+      "wage": 125,
+      "speed": 4.6,
+      "avatarColor": "#a855f7"
+    },
+    {
+      "id": "cand_004",
+      "name": "Chloe Bennett",
+      "tier": "junior",
+      "level": 1,
+      "exp": 0,
+      "hireCost": 300,
+      "wage": 6,
+      "speed": 1.2,
+      "avatarColor": "#38bdf8"
+    }
+  ],
+  "workers": [
+    {
+      "name": "Alex Mercer",
+      "tier": "tech",
+      "level": 2,
+      "exp": 45
+    }
+  ],
+  "contracts": [
+    {
+      "client": "Orbital SpaceX Telemetry",
+      "type": "Satellite Live Feed",
+      "basePay": 280,
+      "callsNeeded": 500,
+      "reqAgents": 3
+    },
+    {
+      "client": "FinTech Banking Global",
+      "type": "24/7 Fraud Prevention",
+      "basePay": 190,
+      "callsNeeded": 400,
+      "reqAgents": 2
+    },
+    {
+      "client": "Tesla Autopilot Response",
+      "type": "Fleet Emergency Support",
+      "basePay": 350,
+      "callsNeeded": 750,
+      "reqAgents": 4
+    }
+  ]
+}
